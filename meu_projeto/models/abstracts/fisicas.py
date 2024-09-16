@@ -14,9 +14,9 @@ class Fisica(Pessoa, ABC):
     def __str__(self) -> str:
         return (
             f"{super().__str__()}"
-            f"CNPJ: {self.cpf}"
-            f"RG: {self.rg}"
-            f"Data de nascimento: {self.data_nascimento}"
-            f"Sexo: {self.sexo.texto}"
-            f"Sigla: {self.sexo.caractere}")
+            f"\nCNPJ: {self.cpf}"
+            f"\nRG: {self.rg}"
+            f"\nData de nascimento: {self.data_nascimento}"
+            f"\nSexo: {self.sexo.texto}"
+            f"\nSigla: {self.sexo.caractere}")
         

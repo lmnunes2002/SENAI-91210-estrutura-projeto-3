@@ -1,5 +1,5 @@
-from meu_projeto.models.enums.genero import Genero
-from meu_projeto.models.enums.setor import Setor
+from models.enums.genero import Genero
+from models.enums.setor import Setor
 from models.enderecos import Endereco
 from models.abstracts.funcionarios import Funcionario
 

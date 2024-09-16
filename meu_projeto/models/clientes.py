@@ -11,4 +11,4 @@ class Cliente(Fisica):
         return (
             f"{super().__str__()}"
             f"\n\nProtocolo de atendimento: "
-            f"\nNúmero: {self.protocolo_atendimento}")
+            f"\nNúmero: {self.protocolo_atendimento}\n")
